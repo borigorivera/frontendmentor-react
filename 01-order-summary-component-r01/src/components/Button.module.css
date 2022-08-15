@@ -1,0 +1,25 @@
+.button {
+	font-family: inherit;
+	font-size: 1.6rem;
+	font-weight: 700;
+
+	padding: 1em 1.25em;
+	color: white;
+	border: transparent;
+	background-color: var(--bright-blue);
+
+	border-radius: 1rem;
+	box-shadow: var(--shadow);
+
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	margin-bottom: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.button--transparent {
+	background-color: transparent;
+	color: var(--desaturated-blue);
+	margin-bottom: 0;
+	box-shadow: none;
+}

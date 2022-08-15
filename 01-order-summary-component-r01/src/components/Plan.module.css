@@ -1,0 +1,31 @@
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--very-pale-blue);
+	padding: 2rem;
+
+	border-radius: 1rem;
+	margin-bottom: 2.5rem;
+}
+
+.container {
+	display: flex;
+	gap: 2rem;
+}
+
+.name {
+	font-size: 1.6rem;
+	font-weight: 900;
+}
+
+.price {
+	color: var(--desaturated-blue);
+}
+
+.link {
+	color: var(--bright-blue);
+	font-size: 1.4rem;
+	font-weight: 700;
+	text-decoration: underline;
+}
